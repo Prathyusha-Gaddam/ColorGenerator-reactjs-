@@ -1,0 +1,25 @@
+.error{
+    border:2px solid red;
+}
+::placeholder{
+    color:darkgray;
+    padding: 0.375rem 0.75rem;
+    display: inline-block;
+}
+.colors{
+   /* min-height: calc(100vh - 100px); */
+     min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
+}
+.color-light{
+    color: aliceblue;
+}
+h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.alert{
+    color:darkgray;
+}
